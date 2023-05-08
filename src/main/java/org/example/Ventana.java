@@ -71,7 +71,7 @@ public class Ventana extends JFrame {
         panel3.setBackground(new Color(231,221,250));
 
         panel3.setLayout(new FlowLayout(FlowLayout.RIGHT));
-        String[] elementos =   {"Opcion1","Opcion2","Opcion3","Opcion4"}
+        String[] elementos =   {"Opcion1","Opcion2","Opcion3","Opcion4"};
         comboBoxPanel3 =  new JComboBox<>(elementos);
         comboBoxPanel3.addActionListener(new AbstractAction() {
             @Override
